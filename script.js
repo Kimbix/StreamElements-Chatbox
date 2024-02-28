@@ -12,7 +12,9 @@ window.addEventListener('onEventReceived', function (obj) {
   const event = obj.detail.event;
   
   // If chatter is excluded, get rekt nerd, else, add message
-  if (excludedChatters.includes(event.data.channel)) { return; }
+  for (let i = 0; i < excludedChatters.length; i++) {
+	if (excludedChatters[i] === event.data.channel) { return; }
+  }
   addMessage(event.data.nick, event.data.text, event.data.badges);
 });
 
@@ -22,7 +24,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
   const fieldData = obj.detail.fieldData;
   totalMessages = 0;
   messagesLimit = fieldData.messagesLimit;
-  excludedChatters = fieldData.excludedChatters;
+  excludedChatters = fieldData.excludedChatters.split(",");
 });
 
 function addMessage(username, text, badges) {
