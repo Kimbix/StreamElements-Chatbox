@@ -1,0 +1,55 @@
+* {
+  font-family: Roboto;
+}
+
+.main-container {
+  /* Span messages and align them in column */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+  /* Place messages in the bottom left*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.message-container {
+  margin-top: 30px;
+}
+
+.username-container {
+  /* Span messages and align them in column */
+  display: inline-flex;
+  width: 100%;
+  background: {{usernameContainerColor}};
+
+  height: {{usernameContainerHeight}}px;
+  max-height: {{usernameContainerHeight}}px;
+}
+
+.username-text {
+  /* Detect and calculate correct font size */
+  font-size: calc({{usernameContainerHeight}}px - 10px);
+  font-weight: 600;
+  color: {{usernameTextColor}};
+  padding: 2.5px 0px 2.5px 0.5em;
+}
+
+.badge-container {
+  /* Display horizontally at the end*/
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  
+  height: auto;
+}
+
+.text-container {
+  background: {{contentContainerColor}};
+  padding: 5px 1em 5px 1em;
+  
+  font-size: {{contentFontHeight}}px;
+  font-weight: bold;
+  color: {{contentTextColor}};
+}
