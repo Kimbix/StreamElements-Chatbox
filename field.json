@@ -1,0 +1,53 @@
+{
+  "excludedChatters": {
+    "type": "text",
+    "label": "Exclude Chatters (Separate with commas)",
+    "value": "xqc,Jeff Bezos"
+  },
+  "messagesLimit": {
+	"type": "number",
+  	"label": "Maximum Displayed Messages",
+    "value": 15,
+    "min": 0,
+    "max": 50,
+    "step": 1
+  },
+  
+  "usernameContainerColor": {
+	"type": "colorpicker",
+    "label": "Color for Username Container",
+    "value": "#379e45"
+  },
+  "usernameTextColor": {
+	"type": "colorpicker",
+    "label": "Color for Username Text",
+    "value": "#102010"
+  },
+  "usernameContainerHeight": {
+	"type": "number",
+  	"label": "Username Field Size (In Pixels)",
+    "value": 30,
+    "min": 20,
+    "max": 50,
+    "step": 1
+  },
+
+  "contentContainerColor": {
+	"type": "colorpicker",
+    "label": "Color for Content Container",
+    "value": "#15361b"
+  },
+  "contentTextColor": {
+	"type": "colorpicker",
+    "label": "Color for Content Text",
+    "value": "#E0F0E0"
+  },
+  "contentFontHeight": {
+	"type": "number",
+  	"label": "Content Field Size (In Pixels)",
+    "value": 20,
+    "min": 10,
+    "max": 40,
+    "step": 1
+  }
+}
