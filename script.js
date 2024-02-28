@@ -23,9 +23,6 @@ window.addEventListener('onWidgetLoad', function (obj) {
   totalMessages = 0;
   messagesLimit = fieldData.messagesLimit;
   excludedChatters = fieldData.excludedChatters;
-  
-  // Test Message
-  addMessage("kimbix", "test", [{"url": "https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3"}])
 });
 
 function addMessage(username, text, badges) {
