@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V8H51E2)
 # StreamElements Chatbox
 
 ![Chatbox Example](https://github.com/Kimbix/StreamElements-Chatbox/assets/83105263/4208115a-1369-422b-90e1-bbd111d7ce31)
