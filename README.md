@@ -38,5 +38,6 @@ You can configure:
 - [ ] Add configurable margins for messages
 - [ ] Add animations
 - [ ] Add font selection
+- [ ] Add option for timestamps
 
 > I plan on adding configurable padding, configurable margin between messages, animations, etc, but its like 3 am at the time of this commit and im TIRED
